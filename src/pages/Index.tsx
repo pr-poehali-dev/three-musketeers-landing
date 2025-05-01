@@ -104,11 +104,10 @@ const Index = () => {
                 <p className="text-gray-700">Молодой гасконец, прибывший в Париж с рекомендательным письмом к капитану королевских мушкетеров. Храбрый, сообразительный и амбициозный юноша.</p>
               </div>
             </div>
-            
             {/* Athos */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <img 
-                src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="https://cdn.poehali.dev/files/1105bf41-3090-4706-8ee9-11c980ae2293.jpg" 
                 alt="Атос" 
                 className="w-full h-64 object-cover"
               />
@@ -116,6 +115,7 @@ const Index = () => {
                 <h3 className="text-xl font-bold mb-2">Атос</h3>
                 <p className="text-gray-700">Благородный мушкетер, скрывающий тайну своего аристократического происхождения. Отличается умом, благородством и сдержанностью.</p>
               </div>
+            </div>
             </div>
             
             {/* Porthos */}
