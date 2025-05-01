@@ -92,9 +92,10 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* D'Artagnan */}
+            {/* D'Artagnan */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <img 
-                src="https://images.unsplash.com/photo-1581873372796-635b67ca2008?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="https://cdn.poehali.dev/files/709088b3-6a6e-433d-bd6b-42b63c46eee0.jpg" 
                 alt="Д'Артаньян" 
                 className="w-full h-64 object-cover"
               />
