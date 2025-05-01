@@ -92,7 +92,6 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* D'Artagnan */}
-            {/* D'Artagnan */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <img 
                 src="https://cdn.poehali.dev/files/709088b3-6a6e-433d-bd6b-42b63c46eee0.jpg" 
@@ -116,12 +115,10 @@ const Index = () => {
                 <p className="text-gray-700">Благородный мушкетер, скрывающий тайну своего аристократического происхождения. Отличается умом, благородством и сдержанностью.</p>
               </div>
             </div>
-            </div>
-            
             {/* Porthos */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <img 
-                src="https://images.unsplash.com/photo-1561677978-583a8c7a4b43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="https://cdn.poehali.dev/files/1bde6df5-10f0-41d7-81da-f149cb78c101.png" 
                 alt="Портос" 
                 className="w-full h-64 object-cover"
               />
@@ -130,11 +127,10 @@ const Index = () => {
                 <p className="text-gray-700">Самый сильный из мушкетеров, любитель роскоши и хвастун. Несмотря на внешнюю простоту, обладает добрым сердцем и предан друзьям.</p>
               </div>
             </div>
-            
             {/* Aramis */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <img 
-                src="https://images.unsplash.com/photo-1548544149-4835e62ee5b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="https://cdn.poehali.dev/files/b26534b9-0c32-4eb9-989d-8b02cd664ef4.jpg" 
                 alt="Арамис" 
                 className="w-full h-64 object-cover"
               />
@@ -157,9 +153,9 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/3">
               <img 
-                src="https://images.unsplash.com/photo-1541360723889-forteen7a11dx?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="https://cdn.poehali.dev/files/225830f5-4520-43af-8dd9-3f842aa155e8.jpg" 
                 alt="Александр Дюма" 
-                className="rounded-lg shadow-xl mx-auto"
+                className="rounded-lg shadow-xl mx-auto w-full h-auto max-w-md"
                 onError={(e) => {
                   e.currentTarget.src = "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80";
                 }}
